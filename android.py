@@ -1,49 +1,5 @@
-import sys
-import time
-import random
 import os
-from werno import *
-def load():
-    loading = werno.merah_putih+"######################"+werno.normal+"\n"
-    for l in loading:
-        sys.stdout.write(l)
-        sys.stdout.flush()
-        time.sleep(random.random()*10.0/100)
-
-def type_buat():
-    buat = "creating the server virus\n"
-    for bu in buat:
-        sys.stdout.write(bu)
-        sys.stdout.flush()
-        time.sleep(random.random()*10.0/100)
-
-def bind_load():
-    bl = "bind your virus is running\n"
-    for bil in bl:
-        sys.stdout.write(bil)
-        sys.stdout.flush()
-        time.sleep(random.random()*10.0/100)
-
-def inj_load():
-    inb = "inject your virus is running\n"
-    for h_inb in inb:
-        sys.stdout.write(h_inb)
-        sys.stdout.flush()
-        time.sleep(random.random()*10.0/100)
-
-def type_sukses():
-    suk = "success create virus server\n"
-    for su in suk:
-        sys.stdout.write(su)
-        sys.stdout.flush()
-        time.sleep(random.random()*10.0/100)
-
-def b_sukses():
-    bsuk = "success bind virus server\n"
-    for bsu in bsuk:
-        sys.stdout.write(bsu)
-        sys.stdout.flush()
-        time.sleep(random.random()*10.0/100)
+from assets import *
 
 def ban_andro():
     print('''
