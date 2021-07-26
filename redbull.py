@@ -1,5 +1,6 @@
 import os
 from android import *
+from windows import *
 from posix import PRIO_PGRP
 
 def awal():
@@ -33,6 +34,9 @@ def eksekusi():
         load()
         if pilih == "1":
             ban_andro()
+            return eksekusi()
+        elif pilih == "2":
+            win_vir()
             return eksekusi()
     elif x == "2":
         bind()
