@@ -2,7 +2,7 @@ import os
 from assets import *
 
 def ban_andro():
-    print('''
+    print(werno.ijo+'''
       |\___/|
      /       .
     |    /\__/|  Are u Crazy man?
@@ -11,7 +11,7 @@ def ban_andro():
      \   /----   but if you wanna play
      |   -\/     you also ready for die
      /     .
-    ''')
+    '''+werno.biasa)
     load()
     type_buat()
     set_ip = input("your ip local : ")
