@@ -17,8 +17,7 @@ def banner():
     print("[1] Android")
     print("[2] Windows")
     print("[3] Linux")
-    print("[4] iOS")
-    print("[5] MacOS")
+    print("[4] Back")
     print("")
 
 def bind():
@@ -26,6 +25,7 @@ def bind():
     print("[1] Original Apk")
     print("[2] Exe Windows")
     print("[3] Deb Linux")
+    print("[4] Back") 
 
 def eksekusi():
     awal()
@@ -44,6 +44,11 @@ def eksekusi():
         elif pilih == "3":
             lin_vir()
             return eksekusi()
+        elif pilih == "4":
+            return eksekusi()
+        else:
+            print("your input incorect")
+            return eksekusi()
     elif x == "2":
         bind()
         pilih = input("chose : ")
@@ -55,6 +60,11 @@ def eksekusi():
             return eksekusi()
         elif pilih == "3":
             bind_lin()
+            return eksekusi()
+        elif pilih == "4":
+            return eksekusi()
+        else:
+            print("your input incorect")
             return eksekusi()
     elif x == "3":
         ex_fun()
